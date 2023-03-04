@@ -12,6 +12,7 @@ function App() {
   return (
     <div>
       <BrowserRouter>
+        <Home />
         <Nav>
           <GiKnifeFork />
           <Logo to={"/"}>Foodies</Logo>
@@ -19,7 +20,6 @@ function App() {
         <Search />
         <Category />
         <Pages />
-        <Home />
       </BrowserRouter>
     </div>
   );
