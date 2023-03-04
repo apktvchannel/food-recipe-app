@@ -19,7 +19,7 @@ function App() {
         <Search />
         <Category />
         <Pages />
-        {/* <Home /> */}
+        <Home />
       </BrowserRouter>
     </div>
   );
