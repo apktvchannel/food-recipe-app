@@ -19,7 +19,6 @@ function App() {
         <Search />
         <Category />
         <Pages />
-        {/* <Home /> */}
       </BrowserRouter>
     </div>
   );
