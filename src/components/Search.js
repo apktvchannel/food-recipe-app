@@ -9,7 +9,7 @@ function Search() {
 
   const submitHandler = (e) => {
     e.preventDefault();
-    navigate("/searched/" + input);
+    navigate("/food-recipe-app/searched/" + input);
   };
 
   return (

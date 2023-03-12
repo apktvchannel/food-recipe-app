@@ -9,19 +9,19 @@ import { color } from "framer-motion";
 function Category() {
   return (
     <List>
-      <SLink to={"/cuisine/Italian"}>
+      <SLink to={"/food-recipe-app/cuisine/Italian"}>
         <FaPizzaSlice />
         <h4>Italian</h4>
       </SLink>
-      <SLink to={"/cuisine/American"}>
+      <SLink to={"/food-recipe-app/cuisine/American"}>
         <FaHamburger />
         <h4>American</h4>
       </SLink>
-      <SLink to={"/cuisine/Thai"}>
+      <SLink to={"/food-recipe-app/cuisine/Thai"}>
         <GiNoodles />
         <h4>Thai</h4>
       </SLink>
-      <SLink to={"/cuisine/Japanese"}>
+      <SLink to={"/food-recipe-app/cuisine/Japanese"}>
         <GiChopsticks />
         <h4>Japanese</h4>
       </SLink>
